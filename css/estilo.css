@@ -1,0 +1,92 @@
+
+/* * {
+    border: 1px solid orange;
+} */
+
+
+/* html {
+    border: 5px solid orange;
+} */
+
+/* head {
+    border: 5px solid orange;
+} */
+
+body {
+    background-color: beige;
+}
+
+
+
+nav {
+    /* border: 5px solid brown; */
+}
+
+
+footer {
+    background-color: #ddddbc;
+    padding: 5px;
+    position: sticky;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.logoGoogle{
+    background-image: url(chrome://new-tab-page/icons/google_logo.svg);
+}
+
+header {
+    background-color: #b9cee1;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 3;
+}
+
+header > img {
+    width: 30%;
+}
+
+header > nav {
+    width: 65%;
+    text-align: right;  
+}
+
+header > * {
+    vertical-align: middle;
+}
+
+nav, ul {
+    display: inline-block;
+}
+
+nav > ul > li {
+    display: inline;
+    margin: 1px;
+    background-color: cornflowerblue;
+    padding: 5px;
+}
+
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: inline-block;
+    width: 70%;
+    min-height: 400px;
+    padding: 15px;
+}
+aside {
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    width: 27%;
+    background-color: #e4cfcf;
+    padding: 15px;
+    min-height: 400px;
+}
+
