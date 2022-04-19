@@ -76,6 +76,7 @@ header{
 .text{
     margin-bottom: 10%;
 }
+
 .title{
     margin-top:10px;
     font-size: 60px;
@@ -91,6 +92,7 @@ header{
     padding: 100 10 100 10;
     height: 100px;
     font-size:larger;
+    cursor:pointer;
 }
 
 .btn:hover{
