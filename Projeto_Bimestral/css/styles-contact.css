@@ -65,10 +65,13 @@ header{
     max-width: 100%;
 }
 
+
 .card{
-    margin-left: 23%;
+    margin-left: 20%;
     margin-top: 4%;
     justify-content: center;
+    display: inline-block;
+    margin-bottom: auto;
 }
 
 fieldset{
@@ -88,4 +91,14 @@ textarea{
     width:32em;
     height: 10em;
     max-width: 90%;
+}
+
+.btn{
+    background-color: rgba(0, 0, 0, 0.898);
+    color:rgb(235, 235, 235);
+    padding: 10px 20px;
+    border-radius: 9px;
+    cursor: pointer;
+    display: block;
+    
 }
